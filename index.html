@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MineSweeper</title>
+  </head>
+  <body>
+    <div id="root" style="text-align: center;"></div>
+    <br />
+    <div style="text-align: center; font-size: 1.5em;">Points:: <span id="points"></span></div>
+    <br />
+    <div
+      id="congo"
+      style="
+        /* border: 1px solid white; */
+        font-size: 1.5em;
+
+        /* background-color: teal; */
+        font-family: Arial, Helvetica, sans-serif;
+        color: maroon;
+        letter-spacing: 0.2em;
+        display: none;
+        text-align: center;
+      "
+    >
+      <b>Congrats Mate !!!</b>
+    </div>
+    <br />
+    <div
+      style="
+      font-size: 1.5em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        /* border: 3px solid green; */
+      "
+    >
+      <button
+        id="newGame"
+        style="
+        font-size: 1.5em;
+          display: none;
+          background-color: grey; /* Green */
+          border: 1px solid lightgray;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 16px;
+        "
+      >
+        <b>New Game<b>
+      </button>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
